@@ -1,0 +1,28 @@
+Channel 78p - CP
+BoundedBuffer 79 - CP
+
+Java 
+
+Java i Scala 
+
+Readers and Writers in § 3.3.3 CP
+
+Semaphore 61 CP
+
+3.4.1.5 Fairness and scheduling 68 CP
+
+
+Deadlock 10.1 Java Concurreny
+208p - Account from-to Deadlock prone
+
+11.3.3. Blocking 
+
+The JVM can implement blocking either via spin-waiting (repeatedly trying to acquire the
+lock until it succeeds) or by suspending the blocked thread through the operating
+system. Which is more efficient depends on the relationship between context
+switch overhead and the time until the lock becomes available; spin-waiting is
+preferable for short waits and suspension is preferable for long waits.
+
+Notification - 14.2.4. JCIP
+Opis budjenja niti nakon notify
+

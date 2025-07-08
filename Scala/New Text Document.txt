@@ -1,0 +1,9 @@
+textFile.map(line => line.split(" ").size).reduce((a, b) => Math.max(a, b))
+
+
+val autoDS = spark.read.option("header", "true").option("inferSchema","true").csv("../dataset/Electric_Vehicle_Population_data.csv")
+// Relativna putanja do fajla, ako se shell startuje iz
+// target ili Scala foldera projekta
+val bmwCities = autoDS.filter($"Make" === "BMW")
+val result = bmwCities.groupBy("City").agg(count("*") as "Count").orderBy($"Count".desc)
+result.show()

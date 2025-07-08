@@ -1,0 +1,1 @@
+spark-submit --class rs.raf.pds.spark.SimpleSpark --master local[*] PDS-Spark-1.0.jar

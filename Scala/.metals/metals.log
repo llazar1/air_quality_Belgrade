@@ -1,0 +1,1936 @@
+2025.05.16 21:03:54 INFO  Started: Metals version 1.5.3 in folders 'D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala' for client Visual Studio Code 1.98.1.
+2025.05.16 21:03:57 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.16 21:04:01 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.16 21:04:01 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.16 21:04:04 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.16 21:04:04 INFO  running 'C:\Program Files\Java\jdk-20\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.10.11 --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.security.action=ALL-UNNAMED -jar C:\Users\ZORANB~1\AppData\Local\Temp\metals6008812890184127225\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.05.16 21:04:05 WARN  Could not find semantic tokens for: file:///D:/dev/workspaces/eclipse-workspace-2022/PDS-Spark/Scala/build.sbt
+2025.05.16 21:04:10 INFO  [info] Updated file D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\project\build.properties: set sbt.version to 1.10.11
+2025.05.16 21:04:10 INFO  [info] welcome to sbt 1.10.11 (Oracle Corporation Java 20)
+2025.05.16 21:04:18 INFO  [info] loading settings for project scala-build-build from metals.sbt...
+2025.05.16 21:04:20 INFO  [info] loading project definition from D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\project\project
+2025.05.16 21:04:26 INFO  [info] loading settings for project scala-build from metals.sbt...
+2025.05.16 21:04:26 INFO  [info] loading project definition from D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\project
+2025.05.16 21:04:36 INFO  [success] Generated .bloop\scala-build.json
+2025.05.16 21:04:36 INFO  [success] Total time: 9 s, completed May 16, 2025, 9:04:37 PM
+2025.05.16 21:04:45 INFO  [info] loading settings for project scala from build.sbt...
+2025.05.16 21:04:45 INFO  [info] set current project to Raf-Spark-Scala-App (in build file:/D:/dev/workspaces/eclipse-workspace-2022/PDS-Spark/Scala/)
+2025.05.16 21:05:00 INFO  [success] Generated .bloop\scala.json
+2025.05.16 21:05:00 INFO  [success] Generated .bloop\scala-test.json
+2025.05.16 21:05:00 INFO  [success] Total time: 14 s, completed May 16, 2025, 9:05:00 PM
+2025.05.16 21:05:00 INFO  time: ran 'sbt bloopInstall' in 55s
+2025.05.16 21:05:00 INFO  Attempting to connect to the build server...
+2025.05.16 21:05:00 INFO  Found a Bloop server running
+2025.05.16 21:05:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\bsp.trace.json or C:\Users\Zoran Babovic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.16 21:05:20 ERROR Timeout waiting for 'build/initialize' response
+2025.05.16 21:05:20 WARN  Retrying connection to the build server Bloop
+2025.05.16 21:05:20 INFO  Found a Bloop server running
+2025.05.16 21:05:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\bsp.trace.json or C:\Users\Zoran Babovic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.16 21:05:29 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Proba.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.16 21:05:29 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Proba.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.16 21:05:32 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Proba.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:94)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.debug.DebugDiscovery.runCommandDiscovery(DebugDiscovery.scala:61)
+	at scala.meta.internal.metals.MetalsLspService.discoverMainClasses(MetalsLspService.scala:1478)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:904)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 21:05:32 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Proba.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.16 21:05:32 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Proba.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:94)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:170)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1445)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1100)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:169)
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.lang.reflect.Method.invoke(Method.java:578)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:271)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:201)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:577)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 21:05:32 WARN  no build target for: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Proba.scala
+2025.05.16 21:05:32 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Proba.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.16 21:05:37 INFO  Attempting to connect to the build server...
+2025.05.16 21:05:37 INFO  Found a Bloop server running
+2025.05.16 21:05:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\project\.metals\bsp.trace.json or C:\Users\Zoran Babovic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.16 21:05:37 INFO  time: Connected to build server in 37s
+2025.05.16 21:05:37 INFO  Connected to Build server: Bloop v2.0.10
+2025.05.16 21:05:37 INFO  time: Imported build in 0.31s
+May 16, 2025 9:06:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.05.16 21:06:50 INFO  time: indexed workspace in 1m13s
+2025.05.16 21:06:51 INFO  compiling scala (5 scala sources)
+2025.05.16 21:07:14 INFO  time: compiled scala in 22s
+2025.05.16 21:07:21 INFO  time: code lens generation in 6.82s
+2025.05.16 21:07:21 INFO  time: code lens generation in 6.83s
+2025.05.16 21:07:21 INFO  time: code lens generation in 6.83s
+2025.05.16 21:07:21 INFO  time: code lens generation in 6.83s
+May 16, 2025 9:08:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 16, 2025 9:09:26 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.05.16 21:09:26 INFO  restarted 2 presentation compilers
+2025.05.16 21:09:32 INFO  running 'C:\Program Files\Java\jre1.8.0_441\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.security.action=ALL-UNNAMED -jar C:\Users\ZORANB~1\AppData\Local\Temp\metals6210809534621491053\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.05.16 21:09:32 ERROR Unrecognized option: --add-opens=java.base/java.nio=ALL-UNNAMED
+2025.05.16 21:09:32 ERROR Error: Could not create the Java Virtual Machine.
+2025.05.16 21:09:32 ERROR Error: A fatal exception has occurred. Program will exit.
+2025.05.16 21:09:32 INFO  time: ran 'sbt bloopInstall' in 0.15s
+2025.05.16 21:09:32 ERROR sbt command failed: C:\Program Files\Java\jre1.8.0_441\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.security.action=ALL-UNNAMED -jar C:\Users\ZORANB~1\AppData\Local\Temp\metals6210809534621491053\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2025.05.16 21:09:32 INFO  Disconnecting from Bloop session...
+2025.05.16 21:09:32 INFO  Shut down connection with build server.
+2025.05.16 21:09:32 INFO  Shut down connection with build server.
+2025.05.16 21:09:32 INFO  Attempting to connect to the build server...
+2025.05.16 21:09:32 INFO  Found a Bloop server running
+2025.05.16 21:09:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\bsp.trace.json or C:\Users\Zoran Babovic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.16 21:09:32 INFO  Attempting to connect to the build server...
+2025.05.16 21:09:32 INFO  Found a Bloop server running
+2025.05.16 21:09:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\project\.metals\bsp.trace.json or C:\Users\Zoran Babovic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.16 21:09:32 INFO  time: Connected to build server in 0.4s
+2025.05.16 21:09:33 INFO  Connected to Build server: Bloop v2.0.10
+2025.05.16 21:09:33 INFO  time: Imported build in 0.26s
+2025.05.16 21:09:45 INFO  time: indexed workspace in 11s
+May 16, 2025 9:11:34 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.05.16 21:13:07 INFO  Shutting down server
+2025.05.16 21:13:07 INFO  shutting down Metals
+2025.05.16 21:13:07 INFO  Shut down connection with build server.
+2025.05.16 21:13:07 INFO  Shut down connection with build server.
+2025.05.16 21:13:07 INFO  Exiting server
+2025.05.16 21:13:34 INFO  Started: Metals version 1.5.3 in folders 'D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala' for client Visual Studio Code 1.98.1.
+2025.05.16 21:13:36 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+May 16, 2025 9:13:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2025.05.16 21:13:42 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.16 21:13:42 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.16 21:13:43 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.16 21:13:42 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.16 21:13:43 INFO  Attempting to connect to the build server...
+May 16, 2025 9:13:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2025.05.16 21:13:42 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.16 21:13:43 INFO  Found a Bloop server running
+2025.05.16 21:13:43 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.16 21:13:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\bsp.trace.json or C:\Users\Zoran Babovic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.16 21:13:44 INFO  Attempting to connect to the build server...
+2025.05.16 21:13:44 INFO  Found a Bloop server running
+2025.05.16 21:13:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\project\.metals\bsp.trace.json or C:\Users\Zoran Babovic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.16 21:13:44 INFO  time: Connected to build server in 1.81s
+2025.05.16 21:13:44 INFO  Connected to Build server: Bloop v2.0.10
+2025.05.16 21:13:45 INFO  time: Imported build in 0.28s
+2025.05.16 21:13:51 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 2.13.13
+2025.05.16 21:13:51 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 2.13.13
+2025.05.16 21:14:01 INFO  compiling scala (1 scala source)
+May 16, 2025 9:14:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+May 16, 2025 9:14:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+May 16, 2025 9:14:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+May 16, 2025 9:14:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28
+May 16, 2025 9:14:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31
+May 16, 2025 9:14:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 34
+May 16, 2025 9:14:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 33
+May 16, 2025 9:14:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29
+May 16, 2025 9:14:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 38
+May 16, 2025 9:14:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 36
+May 16, 2025 9:14:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 37
+2025.05.16 21:14:05 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$SemanticDbNotFoundException$: Build misconfiguration. No semanticdb can be found for you file, please check the doctor.
+	at scala.meta.internal.metals.debug.DiscoveryFailures$SemanticDbNotFoundException$.<clinit>(DiscoveryFailures.scala:66)
+	at scala.meta.internal.metals.debug.DebugDiscovery.$anonfun$runOrTestFile$1(DebugDiscovery.scala:255)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.DebugDiscovery.runOrTestFile(DebugDiscovery.scala:256)
+	at scala.meta.internal.metals.debug.DebugDiscovery.$anonfun$debugDiscovery$1(DebugDiscovery.scala:176)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 21:14:06 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$SemanticDbNotFoundException$: Build misconfiguration. No semanticdb can be found for you file, please check the doctor.
+	at scala.meta.internal.metals.debug.DiscoveryFailures$SemanticDbNotFoundException$.<clinit>(DiscoveryFailures.scala:66)
+	at scala.meta.internal.metals.debug.DebugDiscovery.$anonfun$runOrTestFile$1(DebugDiscovery.scala:255)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.DebugDiscovery.runOrTestFile(DebugDiscovery.scala:256)
+	at scala.meta.internal.metals.debug.DebugDiscovery.$anonfun$debugDiscovery$1(DebugDiscovery.scala:176)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 21:14:23 INFO  time: compiled scala in 22s
+2025.05.16 21:14:40 INFO  time: indexed workspace in 55s
+May 16, 2025 9:15:36 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 16, 2025 9:18:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.05.16 21:18:40 INFO  time: code lens generation in 14s
+2025.05.16 21:18:40 INFO  time: code lens generation in 14s
+May 16, 2025 9:18:42 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 16, 2025 9:23:14 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 16, 2025 9:23:39 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 16, 2025 9:24:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 16, 2025 9:32:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.05.16 21:33:46 INFO  running 'C:\Program Files\Java\jre1.8.0_441\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.security.action=ALL-UNNAMED -jar C:\Users\ZORANB~1\AppData\Local\Temp\metals1187397995596423210\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.05.16 21:33:46 ERROR Unrecognized option: --add-opens=java.base/java.nio=ALL-UNNAMED
+2025.05.16 21:33:46 ERROR Error: Could not create the Java Virtual Machine.
+2025.05.16 21:33:46 ERROR Error: A fatal exception has occurred. Program will exit.
+2025.05.16 21:33:46 INFO  time: ran 'sbt bloopInstall' in 0.17s
+2025.05.16 21:33:46 ERROR sbt command failed: C:\Program Files\Java\jre1.8.0_441\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.security.action=ALL-UNNAMED -jar C:\Users\ZORANB~1\AppData\Local\Temp\metals1187397995596423210\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2025.05.16 21:33:46 INFO  Disconnecting from Bloop session...
+2025.05.16 21:33:46 INFO  Shut down connection with build server.
+2025.05.16 21:33:46 INFO  Shut down connection with build server.
+2025.05.16 21:33:46 INFO  Attempting to connect to the build server...
+2025.05.16 21:33:46 INFO  Found a Bloop server running
+2025.05.16 21:33:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\bsp.trace.json or C:\Users\Zoran Babovic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.16 21:33:47 INFO  Attempting to connect to the build server...
+2025.05.16 21:33:47 INFO  Found a Bloop server running
+2025.05.16 21:33:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\project\.metals\bsp.trace.json or C:\Users\Zoran Babovic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.16 21:33:46 INFO  time: Connected to build server in 0.42s
+2025.05.16 21:33:46 INFO  Connected to Build server: Bloop v2.0.10
+2025.05.16 21:33:47 INFO  time: Imported build in 0.25s
+2025.05.16 21:33:54 INFO  time: code lens generation in 2.75s
+2025.05.16 21:34:00 INFO  time: indexed workspace in 13s
+May 16, 2025 9:34:36 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 16, 2025 9:35:36 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.05.16 21:36:32 INFO  Shutting down server
+2025.05.16 21:36:32 INFO  shutting down Metals
+2025.05.16 21:36:32 INFO  Shut down connection with build server.
+2025.05.16 21:36:32 INFO  Shut down connection with build server.
+2025.05.16 21:36:32 INFO  Exiting server
+2025.05.16 21:36:58 INFO  Started: Metals version 1.5.3 in folders 'D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala' for client Visual Studio Code 1.98.1.
+2025.05.16 21:37:01 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.16 21:37:02 INFO  Attempting to connect to the build server...
+2025.05.16 21:37:02 INFO  Found a Bloop server running
+2025.05.16 21:37:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\bsp.trace.json or C:\Users\Zoran Babovic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.16 21:37:04 INFO  Attempting to connect to the build server...
+2025.05.16 21:37:04 INFO  Found a Bloop server running
+2025.05.16 21:37:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\project\.metals\bsp.trace.json or C:\Users\Zoran Babovic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.16 21:37:04 INFO  time: Connected to build server in 1.9s
+2025.05.16 21:37:04 INFO  Connected to Build server: Bloop v2.0.10
+2025.05.16 21:37:05 INFO  time: Imported build in 0.56s
+May 16, 2025 9:37:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+May 16, 2025 9:37:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+May 16, 2025 9:37:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+2025.05.16 21:37:51 INFO  time: indexed workspace in 45s
+May 16, 2025 9:39:04 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.05.16 21:39:11 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$ClassNotFoundInBuildTargetException: Main class 'D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\RegistracijeAutomobila.scala' not found in build target 'Raf-Spark-Scala-App' (not considering dependencies)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$18(WorkspaceLspService.scala:891)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$17(WorkspaceLspService.scala:887)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$16(WorkspaceLspService.scala:899)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 21:39:12 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundException: Build target not found: Raf-Spark-Scala-App, candidates:
+scala-test
+scala
+scala-build
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$4(BuildTargetClassesFinder.scala:125)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$3(BuildTargetClassesFinder.scala:128)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:118)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:37)
+	at scala.meta.internal.metals.debug.DebugProvider.findMainClassAndItsBuildTarget(DebugProvider.scala:478)
+	at scala.meta.internal.metals.debug.DebugProvider$MainClassSearch.search(DebugProvider.scala:876)
+	at scala.meta.internal.metals.debug.DebugProvider$ClassSearch.$anonfun$searchResult$1(DebugProvider.scala:856)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 21:39:32 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$ClassNotFoundInBuildTargetException: Main class 'D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\RegistracijeAutomobila.scala' not found in build target 'Raf-Spark-Scala-App' (not considering dependencies)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$18(WorkspaceLspService.scala:891)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$17(WorkspaceLspService.scala:887)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$16(WorkspaceLspService.scala:899)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 21:39:32 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundException: Build target not found: Raf-Spark-Scala-App, candidates:
+scala-test
+scala
+scala-build
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$4(BuildTargetClassesFinder.scala:125)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$3(BuildTargetClassesFinder.scala:128)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:118)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:37)
+	at scala.meta.internal.metals.debug.DebugProvider.findMainClassAndItsBuildTarget(DebugProvider.scala:478)
+	at scala.meta.internal.metals.debug.DebugProvider$MainClassSearch.search(DebugProvider.scala:876)
+	at scala.meta.internal.metals.debug.DebugProvider$ClassSearch.$anonfun$searchResult$1(DebugProvider.scala:856)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 21:40:12 INFO  running 'C:\Program Files\Java\jre1.8.0_441\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.security.action=ALL-UNNAMED -jar C:\Users\ZORANB~1\AppData\Local\Temp\metals5135917061015548450\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.05.16 21:40:12 ERROR Unrecognized option: --add-opens=java.base/java.nio=ALL-UNNAMED
+2025.05.16 21:40:12 ERROR Error: Could not create the Java Virtual Machine.
+2025.05.16 21:40:12 ERROR Error: A fatal exception has occurred. Program will exit.
+2025.05.16 21:40:12 INFO  time: ran 'sbt bloopInstall' in 0.17s
+2025.05.16 21:40:12 ERROR sbt command failed: C:\Program Files\Java\jre1.8.0_441\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.security.action=ALL-UNNAMED -jar C:\Users\ZORANB~1\AppData\Local\Temp\metals5135917061015548450\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2025.05.16 21:40:12 INFO  Disconnecting from Bloop session...
+2025.05.16 21:40:12 INFO  Shut down connection with build server.
+2025.05.16 21:40:12 INFO  Shut down connection with build server.
+2025.05.16 21:40:12 INFO  Attempting to connect to the build server...
+2025.05.16 21:40:12 INFO  Found a Bloop server running
+2025.05.16 21:40:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\bsp.trace.json or C:\Users\Zoran Babovic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.16 21:40:12 INFO  Attempting to connect to the build server...
+2025.05.16 21:40:12 INFO  Found a Bloop server running
+2025.05.16 21:40:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\project\.metals\bsp.trace.json or C:\Users\Zoran Babovic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.16 21:40:12 INFO  time: Connected to build server in 0.3s
+2025.05.16 21:40:12 INFO  Connected to Build server: Bloop v2.0.10
+2025.05.16 21:40:12 INFO  time: Imported build in 0.19s
+2025.05.16 21:40:17 INFO  time: code lens generation in 8s
+2025.05.16 21:40:17 INFO  time: code lens generation in 4.54s
+2025.05.16 21:40:17 INFO  time: code lens generation in 9.65s
+2025.05.16 21:40:17 INFO  time: code lens generation in 9.97s
+2025.05.16 21:40:17 INFO  time: code lens generation in 11s
+2025.05.16 21:40:17 INFO  time: code lens generation in 12s
+2025.05.16 21:40:26 INFO  time: indexed workspace in 12s
+2025.05.16 21:43:25 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$ClassNotFoundInBuildTargetException: Main class 'D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\RegistracijeAutomobila.scala' not found in build target 'Raf-Spark-Scala-App' (not considering dependencies)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$18(WorkspaceLspService.scala:891)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$17(WorkspaceLspService.scala:887)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$16(WorkspaceLspService.scala:899)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 21:43:26 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundException: Build target not found: Raf-Spark-Scala-App, candidates:
+scala-test
+scala
+scala-build
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$4(BuildTargetClassesFinder.scala:125)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$3(BuildTargetClassesFinder.scala:128)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:118)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:37)
+	at scala.meta.internal.metals.debug.DebugProvider.findMainClassAndItsBuildTarget(DebugProvider.scala:478)
+	at scala.meta.internal.metals.debug.DebugProvider$MainClassSearch.search(DebugProvider.scala:876)
+	at scala.meta.internal.metals.debug.DebugProvider$ClassSearch.$anonfun$searchResult$1(DebugProvider.scala:856)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+May 16, 2025 9:44:53 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 16, 2025 9:45:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 16, 2025 9:46:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 16, 2025 9:46:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 16, 2025 9:47:09 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.05.16 21:48:10 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$ClassNotFoundInBuildTargetException: Main class 'Wallmart' not found in build target 'Raf-Spark-Scala-App' (not considering dependencies)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$18(WorkspaceLspService.scala:891)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$17(WorkspaceLspService.scala:887)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$16(WorkspaceLspService.scala:899)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 21:48:10 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundException: Build target not found: Raf-Spark-Scala-App, candidates:
+scala-test
+scala
+scala-build
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$4(BuildTargetClassesFinder.scala:125)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$3(BuildTargetClassesFinder.scala:128)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:118)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:37)
+	at scala.meta.internal.metals.debug.DebugProvider.findMainClassAndItsBuildTarget(DebugProvider.scala:478)
+	at scala.meta.internal.metals.debug.DebugProvider$MainClassSearch.search(DebugProvider.scala:876)
+	at scala.meta.internal.metals.debug.DebugProvider$ClassSearch.$anonfun$searchResult$1(DebugProvider.scala:856)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 21:49:37 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$ClassNotFoundInBuildTargetException: Main class 'Wallmart' not found in build target 'Raf-Spark-Scala-App' (not considering dependencies)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$18(WorkspaceLspService.scala:891)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$17(WorkspaceLspService.scala:887)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$16(WorkspaceLspService.scala:899)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 21:49:37 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundException: Build target not found: Raf-Spark-Scala-App, candidates:
+scala-test
+scala
+scala-build
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$4(BuildTargetClassesFinder.scala:125)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$3(BuildTargetClassesFinder.scala:128)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:118)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:37)
+	at scala.meta.internal.metals.debug.DebugProvider.findMainClassAndItsBuildTarget(DebugProvider.scala:478)
+	at scala.meta.internal.metals.debug.DebugProvider$MainClassSearch.search(DebugProvider.scala:876)
+	at scala.meta.internal.metals.debug.DebugProvider$ClassSearch.$anonfun$searchResult$1(DebugProvider.scala:856)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 21:49:52 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$ClassNotFoundInBuildTargetException: Main class 'Wallmart' not found in build target 'Raf-Spark-Scala-App' (not considering dependencies)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$18(WorkspaceLspService.scala:891)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$17(WorkspaceLspService.scala:887)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$16(WorkspaceLspService.scala:899)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 21:49:53 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundException: Build target not found: Raf-Spark-Scala-App, candidates:
+scala-test
+scala
+scala-build
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$4(BuildTargetClassesFinder.scala:125)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$3(BuildTargetClassesFinder.scala:128)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:118)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:37)
+	at scala.meta.internal.metals.debug.DebugProvider.findMainClassAndItsBuildTarget(DebugProvider.scala:478)
+	at scala.meta.internal.metals.debug.DebugProvider$MainClassSearch.search(DebugProvider.scala:876)
+	at scala.meta.internal.metals.debug.DebugProvider$ClassSearch.$anonfun$searchResult$1(DebugProvider.scala:856)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+May 16, 2025 9:50:07 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-16\r_empty-definition_(scala-build)_21-50-07-482.md)
+May 16, 2025 9:50:07 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-16\r_empty-definition_(scala-build)_21-50-07-482.md)
+May 16, 2025 9:50:23 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.05.16 21:50:29 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$ClassNotFoundInBuildTargetException: Main class 'Wallmart' not found in build target 'Raf-Spark-Scala-App' (not considering dependencies)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$18(WorkspaceLspService.scala:891)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$17(WorkspaceLspService.scala:887)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$16(WorkspaceLspService.scala:899)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 21:50:29 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundException: Build target not found: Raf-Spark-Scala-App, candidates:
+scala-test
+scala
+scala-build
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$4(BuildTargetClassesFinder.scala:125)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$3(BuildTargetClassesFinder.scala:128)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:118)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:37)
+	at scala.meta.internal.metals.debug.DebugProvider.findMainClassAndItsBuildTarget(DebugProvider.scala:478)
+	at scala.meta.internal.metals.debug.DebugProvider$MainClassSearch.search(DebugProvider.scala:876)
+	at scala.meta.internal.metals.debug.DebugProvider$ClassSearch.$anonfun$searchResult$1(DebugProvider.scala:856)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 21:51:01 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$ClassNotFoundInBuildTargetException: Main class 'Wallmart' not found in build target 'Raf-Spark-Scala-App' (not considering dependencies)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$18(WorkspaceLspService.scala:891)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$17(WorkspaceLspService.scala:887)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$16(WorkspaceLspService.scala:899)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 21:51:01 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundException: Build target not found: Raf-Spark-Scala-App, candidates:
+scala-test
+scala
+scala-build
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$4(BuildTargetClassesFinder.scala:125)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$3(BuildTargetClassesFinder.scala:128)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:118)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:37)
+	at scala.meta.internal.metals.debug.DebugProvider.findMainClassAndItsBuildTarget(DebugProvider.scala:478)
+	at scala.meta.internal.metals.debug.DebugProvider$MainClassSearch.search(DebugProvider.scala:876)
+	at scala.meta.internal.metals.debug.DebugProvider$ClassSearch.$anonfun$searchResult$1(DebugProvider.scala:856)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+May 16, 2025 9:51:34 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 16, 2025 9:51:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 16, 2025 9:52:25 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.05.16 21:52:31 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$ClassNotFoundInBuildTargetException: Main class 'Wallmart' not found in build target 'Raf-Spark-Scala-App' (not considering dependencies)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$18(WorkspaceLspService.scala:891)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$17(WorkspaceLspService.scala:887)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$16(WorkspaceLspService.scala:899)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 21:52:31 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundException: Build target not found: Raf-Spark-Scala-App, candidates:
+scala-test
+scala
+scala-build
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$4(BuildTargetClassesFinder.scala:125)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$3(BuildTargetClassesFinder.scala:128)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:118)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:37)
+	at scala.meta.internal.metals.debug.DebugProvider.findMainClassAndItsBuildTarget(DebugProvider.scala:478)
+	at scala.meta.internal.metals.debug.DebugProvider$MainClassSearch.search(DebugProvider.scala:876)
+	at scala.meta.internal.metals.debug.DebugProvider$ClassSearch.$anonfun$searchResult$1(DebugProvider.scala:856)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 21:53:26 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$ClassNotFoundInBuildTargetException: Main class 'Wallmart' not found in build target 'Raf-Spark-Scala-App' (not considering dependencies)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$18(WorkspaceLspService.scala:891)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$17(WorkspaceLspService.scala:887)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$16(WorkspaceLspService.scala:899)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 21:53:27 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundException: Build target not found: Raf-Spark-Scala-App, candidates:
+scala-test
+scala
+scala-build
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$4(BuildTargetClassesFinder.scala:125)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$3(BuildTargetClassesFinder.scala:128)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:118)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:37)
+	at scala.meta.internal.metals.debug.DebugProvider.findMainClassAndItsBuildTarget(DebugProvider.scala:478)
+	at scala.meta.internal.metals.debug.DebugProvider$MainClassSearch.search(DebugProvider.scala:876)
+	at scala.meta.internal.metals.debug.DebugProvider$ClassSearch.$anonfun$searchResult$1(DebugProvider.scala:856)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+May 16, 2025 9:53:48 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.05.16 21:53:53 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$ClassNotFoundInBuildTargetException: Main class 'Wallmart' not found in build target 'Raf-Spark-Scala-App' (not considering dependencies)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$18(WorkspaceLspService.scala:891)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$17(WorkspaceLspService.scala:887)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$16(WorkspaceLspService.scala:899)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 21:53:53 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundException: Build target not found: Raf-Spark-Scala-App, candidates:
+scala-test
+scala
+scala-build
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$4(BuildTargetClassesFinder.scala:125)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$3(BuildTargetClassesFinder.scala:128)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:118)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:37)
+	at scala.meta.internal.metals.debug.DebugProvider.findMainClassAndItsBuildTarget(DebugProvider.scala:478)
+	at scala.meta.internal.metals.debug.DebugProvider$MainClassSearch.search(DebugProvider.scala:876)
+	at scala.meta.internal.metals.debug.DebugProvider$ClassSearch.$anonfun$searchResult$1(DebugProvider.scala:856)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 21:54:07 INFO  Shutting down server
+2025.05.16 21:54:07 INFO  shutting down Metals
+2025.05.16 21:54:07 INFO  Shut down connection with build server.
+2025.05.16 21:54:07 INFO  Shut down connection with build server.
+2025.05.16 21:54:07 INFO  Exiting server
+2025.05.16 21:54:35 INFO  Started: Metals version 1.5.3 in folders 'D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala' for client Visual Studio Code 1.98.1.
+2025.05.16 21:54:39 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+May 16, 2025 9:54:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+May 16, 2025 9:54:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+May 16, 2025 9:54:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2025.05.16 21:54:43 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.16 21:54:44 INFO  Attempting to connect to the build server...
+2025.05.16 21:54:44 INFO  Found a Bloop server running
+2025.05.16 21:54:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\bsp.trace.json or C:\Users\Zoran Babovic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.16 21:54:45 WARN  no build target for: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala
+2025.05.16 21:54:45 INFO  Attempting to connect to the build server...
+2025.05.16 21:54:45 INFO  Found a Bloop server running
+May 16, 2025 9:54:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+2025.05.16 21:54:45 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.16 21:54:45 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.16 21:54:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\project\.metals\bsp.trace.json or C:\Users\Zoran Babovic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.16 21:54:46 INFO  time: Connected to build server in 2.56s
+2025.05.16 21:54:46 INFO  Connected to Build server: Bloop v2.0.10
+May 16, 2025 9:54:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+2025.05.16 21:54:47 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$ClassNotFoundInBuildTargetException: Main class 'Wallmart' not found in build target 'Raf-Spark-Scala-App' (not considering dependencies)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$18(WorkspaceLspService.scala:891)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$17(WorkspaceLspService.scala:887)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$16(WorkspaceLspService.scala:899)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 21:54:47 INFO  time: Imported build in 0.52s
+2025.05.16 21:54:47 WARN  no build target for: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala
+2025.05.16 21:54:47 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundException: Build target not found: Raf-Spark-Scala-App, candidates:
+scala-test
+scala
+scala-build
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$4(BuildTargetClassesFinder.scala:125)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$3(BuildTargetClassesFinder.scala:128)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:118)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:37)
+	at scala.meta.internal.metals.debug.DebugProvider.findMainClassAndItsBuildTarget(DebugProvider.scala:478)
+	at scala.meta.internal.metals.debug.DebugProvider$MainClassSearch.search(DebugProvider.scala:876)
+	at scala.meta.internal.metals.debug.DebugProvider$ClassSearch.$anonfun$searchResult$1(DebugProvider.scala:856)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 21:55:26 INFO  time: indexed workspace in 39s
+May 16, 2025 9:55:48 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.05.16 21:56:01 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$ClassNotFoundInBuildTargetException: Main class 'Wallmart' not found in build target 'Raf-Spark-Scala-App' (not considering dependencies)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$18(WorkspaceLspService.scala:891)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$17(WorkspaceLspService.scala:887)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$16(WorkspaceLspService.scala:899)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 21:56:02 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundException: Build target not found: Raf-Spark-Scala-App, candidates:
+scala-test
+scala
+scala-build
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$4(BuildTargetClassesFinder.scala:125)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$3(BuildTargetClassesFinder.scala:128)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:118)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:37)
+	at scala.meta.internal.metals.debug.DebugProvider.findMainClassAndItsBuildTarget(DebugProvider.scala:478)
+	at scala.meta.internal.metals.debug.DebugProvider$MainClassSearch.search(DebugProvider.scala:876)
+	at scala.meta.internal.metals.debug.DebugProvider$ClassSearch.$anonfun$searchResult$1(DebugProvider.scala:856)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+May 16, 2025 9:56:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 16, 2025 9:57:03 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 16, 2025 9:58:25 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 16, 2025 10:01:14 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 16, 2025 10:02:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 129
+May 16, 2025 10:03:09 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-16\r_empty-definition_(scala)_22-03-09-387.md)
+May 16, 2025 10:03:32 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 16, 2025 10:03:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 202
+May 16, 2025 10:03:41 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-16\r_empty-definition_(scala)_22-03-09-387.md)
+May 16, 2025 10:03:42 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-16\r_empty-definition_(scala)_22-03-09-387.md)
+2025.05.16 22:03:43 INFO  compiling scala (1 scala source)
+May 16, 2025 10:03:58 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 16, 2025 10:04:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 226
+2025.05.16 22:04:08 INFO  time: compiled scala in 25s
+Exception in thread "pool-8-thread-1" scala.tools.nsc.interactive.ShutdownReq$
+2025.05.16 22:04:49 INFO  compiling scala (1 scala source)
+May 16, 2025 10:04:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 266
+2025.05.16 22:05:00 INFO  time: compiled scala in 11s
+2025.05.16 22:06:38 INFO  Shutting down server
+2025.05.16 22:06:38 INFO  shutting down Metals
+2025.05.16 22:06:38 INFO  Shut down connection with build server.
+2025.05.16 22:06:38 INFO  Shut down connection with build server.
+2025.05.16 22:06:38 INFO  Exiting server
+2025.05.16 22:07:03 INFO  Started: Metals version 1.5.3 in folders 'D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala' for client Visual Studio Code 1.98.1.
+2025.05.16 22:07:06 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\RegistracijeAutomobila.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.16 22:07:07 INFO  Attempting to connect to the build server...
+2025.05.16 22:07:07 INFO  Found a Bloop server running
+2025.05.16 22:07:08 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$ClassNotFoundInBuildTargetException: Main class 'Walmart' not found in build target 'Raf-Spark-Scala-App' (not considering dependencies)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$18(WorkspaceLspService.scala:891)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$17(WorkspaceLspService.scala:887)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$16(WorkspaceLspService.scala:899)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 22:07:09 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\RegistracijeAutomobila.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.16 22:07:08 WARN  no build target for: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\RegistracijeAutomobila.scala
+2025.05.16 22:07:09 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundException: Build target not found: Raf-Spark-Scala-App, candidates:
+
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$4(BuildTargetClassesFinder.scala:125)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$3(BuildTargetClassesFinder.scala:128)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:118)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:37)
+	at scala.meta.internal.metals.debug.DebugProvider.findMainClassAndItsBuildTarget(DebugProvider.scala:478)
+	at scala.meta.internal.metals.debug.DebugProvider$MainClassSearch.search(DebugProvider.scala:876)
+	at scala.meta.internal.metals.debug.DebugProvider$ClassSearch.$anonfun$searchResult$1(DebugProvider.scala:856)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 22:07:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\bsp.trace.json or C:\Users\Zoran Babovic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.16 22:07:09 INFO  Attempting to connect to the build server...
+2025.05.16 22:07:09 INFO  Found a Bloop server running
+2025.05.16 22:07:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\project\.metals\bsp.trace.json or C:\Users\Zoran Babovic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.16 22:07:09 INFO  time: Connected to build server in 2.85s
+2025.05.16 22:07:10 INFO  Connected to Build server: Bloop v2.0.10
+2025.05.16 22:07:11 INFO  time: Imported build in 0.75s
+2025.05.16 22:07:13 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\RegistracijeAutomobila.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.16 22:08:03 INFO  time: indexed workspace in 50s
+May 16, 2025 10:10:53 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.05.16 22:10:53 INFO  restarted 2 presentation compilers
+2025.05.16 22:10:58 INFO  running 'C:\Program Files\Java\jdk-20\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.security.action=ALL-UNNAMED -jar C:\Users\ZORANB~1\AppData\Local\Temp\metals12555630616821782598\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.05.16 22:11:05 INFO  [info] welcome to sbt 1.10.11 (Oracle Corporation Java 20)
+2025.05.16 22:11:07 INFO  [info] loading settings for project scala-build-build from metals.sbt...
+2025.05.16 22:11:10 INFO  [info] loading project definition from D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\project\project
+2025.05.16 22:11:13 INFO  [info] loading settings for project scala-build from metals.sbt...
+2025.05.16 22:11:15 INFO  [info] loading project definition from D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\project
+2025.05.16 22:11:27 INFO  [success] Generated .bloop\scala-build.json
+2025.05.16 22:11:27 INFO  [success] Total time: 12 s, completed May 16, 2025, 10:11:27 PM
+2025.05.16 22:11:37 INFO  [info] loading settings for project scala from build.sbt...
+2025.05.16 22:11:37 INFO  [info] set current project to Raf-Spark-Scala-App (in build file:/D:/dev/workspaces/eclipse-workspace-2022/PDS-Spark/Scala/)
+May 16, 2025 10:11:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.05.16 22:11:45 INFO  [success] Generated .bloop\scala.json
+2025.05.16 22:11:45 INFO  [success] Generated .bloop\scala-test.json
+2025.05.16 22:11:45 INFO  [success] Total time: 7 s, completed May 16, 2025, 10:11:45 PM
+2025.05.16 22:11:45 INFO  time: ran 'sbt bloopInstall' in 47s
+2025.05.16 22:11:45 INFO  Disconnecting from Bloop session...
+2025.05.16 22:11:45 INFO  Shut down connection with build server.
+2025.05.16 22:11:45 INFO  Shut down connection with build server.
+2025.05.16 22:11:45 INFO  Attempting to connect to the build server...
+2025.05.16 22:11:45 INFO  Found a Bloop server running
+2025.05.16 22:11:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\bsp.trace.json or C:\Users\Zoran Babovic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.16 22:11:45 INFO  Attempting to connect to the build server...
+2025.05.16 22:11:45 INFO  Found a Bloop server running
+2025.05.16 22:11:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\project\.metals\bsp.trace.json or C:\Users\Zoran Babovic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.16 22:11:45 INFO  time: Connected to build server in 0.38s
+2025.05.16 22:11:46 INFO  Connected to Build server: Bloop v2.0.10
+2025.05.16 22:11:45 INFO  time: Imported build in 0.29s
+2025.05.16 22:11:49 INFO  compiling scala (5 scala sources)
+May 16, 2025 10:11:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 34
+May 16, 2025 10:11:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 37
+May 16, 2025 10:11:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 36
+May 16, 2025 10:11:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 32
+May 16, 2025 10:11:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 38
+2025.05.16 22:12:06 INFO  time: compiled scala in 16s
+2025.05.16 22:12:10 INFO  time: indexed workspace in 23s
+May 16, 2025 10:12:49 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 16, 2025 10:13:24 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 16, 2025 10:13:29 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.05.16 22:13:35 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$ClassNotFoundInBuildTargetException: Main class 'Wallmart' not found in build target 'Raf-Spark-Scala-App' (not considering dependencies)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$18(WorkspaceLspService.scala:891)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$17(WorkspaceLspService.scala:887)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$16(WorkspaceLspService.scala:899)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 22:13:35 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundException: Build target not found: Raf-Spark-Scala-App, candidates:
+scala-test
+scala
+scala-build
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$4(BuildTargetClassesFinder.scala:125)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$3(BuildTargetClassesFinder.scala:128)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:118)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:37)
+	at scala.meta.internal.metals.debug.DebugProvider.findMainClassAndItsBuildTarget(DebugProvider.scala:478)
+	at scala.meta.internal.metals.debug.DebugProvider$MainClassSearch.search(DebugProvider.scala:876)
+	at scala.meta.internal.metals.debug.DebugProvider$ClassSearch.$anonfun$searchResult$1(DebugProvider.scala:856)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+May 16, 2025 10:14:00 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 16, 2025 10:14:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 71
+May 16, 2025 10:15:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 118
+May 16, 2025 10:16:13 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-16\r_empty-definition_(scala)_22-16-13-917.md)
+May 16, 2025 10:16:13 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-16\r_empty-definition_(scala)_22-16-13-917.md)
+May 16, 2025 10:17:31 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 16, 2025 10:19:03 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 16, 2025 10:20:50 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 16, 2025 10:20:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 157
+May 16, 2025 10:22:04 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 16, 2025 10:26:04 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.05.16 22:26:41 INFO  time: code lens generation in 4.71s
+2025.05.16 22:26:41 INFO  time: code lens generation in 6.64s
+2025.05.16 22:26:41 INFO  time: code lens generation in 7.51s
+May 16, 2025 10:26:45 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-16\r_empty-definition_(scala-build)_21-50-07-482.md)
+May 16, 2025 10:27:02 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-16\r_empty-definition_(scala-build)_21-50-07-482.md)
+2025.05.16 22:27:04 INFO  running 'C:\Program Files\Java\jdk-20\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=java.base/sun.security.action=ALL-UNNAMED -jar C:\Users\ZORANB~1\AppData\Local\Temp\metals10743542159012918352\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.05.16 22:27:09 INFO  [info] welcome to sbt 1.10.11 (Oracle Corporation Java 20)
+2025.05.16 22:27:10 INFO  [info] loading settings for project scala-build-build from metals.sbt...
+2025.05.16 22:27:13 INFO  [info] loading project definition from D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\project\project
+2025.05.16 22:27:15 INFO  [info] loading settings for project scala-build from metals.sbt...
+2025.05.16 22:27:15 INFO  [info] loading project definition from D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\project
+2025.05.16 22:27:24 INFO  [success] Generated .bloop\scala-build.json
+2025.05.16 22:27:24 INFO  [success] Total time: 8 s, completed May 16, 2025, 10:27:25 PM
+2025.05.16 22:27:31 INFO  [info] loading settings for project scala from build.sbt...
+2025.05.16 22:27:31 INFO  [info] set current project to Raf-Spark-Scala-App (in build file:/D:/dev/workspaces/eclipse-workspace-2022/PDS-Spark/Scala/)
+2025.05.16 22:27:38 INFO  [success] Generated .bloop\scala.json
+2025.05.16 22:27:38 INFO  [success] Generated .bloop\scala-test.json
+2025.05.16 22:27:38 INFO  [success] Total time: 5 s, completed May 16, 2025, 10:27:38 PM
+2025.05.16 22:27:38 INFO  time: ran 'sbt bloopInstall' in 34s
+2025.05.16 22:27:38 INFO  Disconnecting from Bloop session...
+2025.05.16 22:27:38 INFO  Shut down connection with build server.
+2025.05.16 22:27:38 INFO  Shut down connection with build server.
+2025.05.16 22:27:38 INFO  Attempting to connect to the build server...
+2025.05.16 22:27:38 INFO  Found a Bloop server running
+2025.05.16 22:27:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\bsp.trace.json or C:\Users\Zoran Babovic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.16 22:27:38 INFO  Attempting to connect to the build server...
+2025.05.16 22:27:38 INFO  Found a Bloop server running
+2025.05.16 22:27:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\project\.metals\bsp.trace.json or C:\Users\Zoran Babovic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.16 22:27:38 INFO  time: Connected to build server in 0.38s
+2025.05.16 22:27:38 INFO  Connected to Build server: Bloop v2.0.10
+2025.05.16 22:27:38 INFO  time: Imported build in 0.27s
+2025.05.16 22:27:47 INFO  time: indexed workspace in 8.28s
+2025.05.16 22:27:48 INFO  skipping build import with status 'Installed'
+2025.05.16 22:27:48 INFO  Disconnecting from Bloop session...
+2025.05.16 22:27:48 INFO  Shut down connection with build server.
+2025.05.16 22:27:48 INFO  Shut down connection with build server.
+May 16, 2025 10:27:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+WARNING: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: Connection reset by peer
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:191)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:160)
+	at scala.meta.internal.metals.utils.FutureWithTimeout$$anon$1.$anonfun$cancel$1(FutureWithTimeout.scala:37)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:217)
+	at scala.meta.internal.metals.utils.FutureWithTimeout$$anon$1.cancel(FutureWithTimeout.scala:37)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.utils.RequestRegistry.cancel(RequestRegistry.scala:99)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:456)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:180)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:172)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+Caused by: java.io.IOException: Connection reset by peer
+	at java.base/sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54)
+	at java.base/sun.nio.ch.SocketChannelImpl.tryWrite(SocketChannelImpl.java:1366)
+	at java.base/sun.nio.ch.SocketChannelImpl.blockingWriteFully(SocketChannelImpl.java:1400)
+	at java.base/sun.nio.ch.SocketOutputStream.write(SocketOutputStream.java:58)
+	at java.base/sun.nio.ch.SocketOutputStream.write(SocketOutputStream.java:53)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:138)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2025.05.16 22:27:48 INFO  Attempting to connect to the build server...
+2025.05.16 22:27:48 INFO  Found a Bloop server running
+2025.05.16 22:27:48 INFO  Scala test classes not supported by server
+2025.05.16 22:27:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\bsp.trace.json or C:\Users\Zoran Babovic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.16 22:27:48 INFO  Attempting to connect to the build server...
+2025.05.16 22:27:48 INFO  Found a Bloop server running
+2025.05.16 22:27:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\project\.metals\bsp.trace.json or C:\Users\Zoran Babovic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.16 22:27:48 INFO  time: Connected to build server in 0.92s
+2025.05.16 22:27:48 INFO  Connected to Build server: Bloop v2.0.10
+2025.05.16 22:27:49 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\build.sbt. Using presentation compiler with project's scala-library version: 2.13.13
+2025.05.16 22:27:49 INFO  time: Imported build in 0.41s
+2025.05.16 22:27:52 INFO  time: code lens generation in 3.02s
+May 16, 2025 10:27:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 369
+2025.05.16 22:28:03 INFO  time: indexed workspace in 13s
+May 16, 2025 10:29:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 409
+May 16, 2025 10:30:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 438
+2025.05.16 22:30:40 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundException: Build target not found: Raf-Spark-Scala-App, candidates:
+scala-test
+scala
+scala-build
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$4(BuildTargetClassesFinder.scala:125)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$3(BuildTargetClassesFinder.scala:128)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:118)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:37)
+	at scala.meta.internal.metals.debug.DebugProvider.findMainClassAndItsBuildTarget(DebugProvider.scala:478)
+	at scala.meta.internal.metals.debug.DebugProvider$MainClassSearch.search(DebugProvider.scala:876)
+	at scala.meta.internal.metals.debug.DebugProvider$ClassSearch.$anonfun$searchResult$1(DebugProvider.scala:856)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 22:33:37 INFO  compiling scala (1 scala source)
+2025.05.16 22:33:52 INFO  time: compiled scala in 15s
+2025.05.16 22:34:42 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundException: Build target not found: Raf-Spark-Scala-App, candidates:
+scala-test
+scala
+scala-build
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$4(BuildTargetClassesFinder.scala:125)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$3(BuildTargetClassesFinder.scala:128)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:118)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:37)
+	at scala.meta.internal.metals.debug.DebugProvider.findMainClassAndItsBuildTarget(DebugProvider.scala:478)
+	at scala.meta.internal.metals.debug.DebugProvider$MainClassSearch.search(DebugProvider.scala:876)
+	at scala.meta.internal.metals.debug.DebugProvider$ClassSearch.$anonfun$searchResult$1(DebugProvider.scala:856)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 22:34:46 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundException: Build target not found: Raf-Spark-Scala-App, candidates:
+scala-test
+scala
+scala-build
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$4(BuildTargetClassesFinder.scala:125)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$3(BuildTargetClassesFinder.scala:128)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:118)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:37)
+	at scala.meta.internal.metals.debug.DebugProvider.findMainClassAndItsBuildTarget(DebugProvider.scala:478)
+	at scala.meta.internal.metals.debug.DebugProvider$MainClassSearch.search(DebugProvider.scala:876)
+	at scala.meta.internal.metals.debug.DebugProvider$ClassSearch.$anonfun$searchResult$1(DebugProvider.scala:856)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 22:36:03 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundException: Build target not found: Raf-Spark-Scala-App, candidates:
+scala-test
+scala
+scala-build
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$4(BuildTargetClassesFinder.scala:125)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$3(BuildTargetClassesFinder.scala:128)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:118)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:37)
+	at scala.meta.internal.metals.debug.DebugProvider.findMainClassAndItsBuildTarget(DebugProvider.scala:478)
+	at scala.meta.internal.metals.debug.DebugProvider$MainClassSearch.search(DebugProvider.scala:876)
+	at scala.meta.internal.metals.debug.DebugProvider$ClassSearch.$anonfun$searchResult$1(DebugProvider.scala:856)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 22:36:10 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundException: Build target not found: Raf-Spark-Scala-App, candidates:
+scala-test
+scala
+scala-build
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$4(BuildTargetClassesFinder.scala:125)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$3(BuildTargetClassesFinder.scala:128)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:118)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:37)
+	at scala.meta.internal.metals.debug.DebugProvider.findMainClassAndItsBuildTarget(DebugProvider.scala:478)
+	at scala.meta.internal.metals.debug.DebugProvider$MainClassSearch.search(DebugProvider.scala:876)
+	at scala.meta.internal.metals.debug.DebugProvider$ClassSearch.$anonfun$searchResult$1(DebugProvider.scala:856)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 22:37:15 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundException: Build target not found: Raf-Spark-Scala-App, candidates:
+scala-test
+scala
+scala-build
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$4(BuildTargetClassesFinder.scala:125)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$3(BuildTargetClassesFinder.scala:128)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:118)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:37)
+	at scala.meta.internal.metals.debug.DebugProvider.findMainClassAndItsBuildTarget(DebugProvider.scala:478)
+	at scala.meta.internal.metals.debug.DebugProvider$MainClassSearch.search(DebugProvider.scala:876)
+	at scala.meta.internal.metals.debug.DebugProvider$ClassSearch.$anonfun$searchResult$1(DebugProvider.scala:856)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 22:38:13 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundException: Build target not found: Raf-Spark-Scala-App, candidates:
+scala-test
+scala
+scala-build
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$4(BuildTargetClassesFinder.scala:125)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$3(BuildTargetClassesFinder.scala:128)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:118)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:37)
+	at scala.meta.internal.metals.debug.DebugProvider.findMainClassAndItsBuildTarget(DebugProvider.scala:478)
+	at scala.meta.internal.metals.debug.DebugProvider$MainClassSearch.search(DebugProvider.scala:876)
+	at scala.meta.internal.metals.debug.DebugProvider$ClassSearch.$anonfun$searchResult$1(DebugProvider.scala:856)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+May 16, 2025 10:39:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 16, 2025 10:39:38 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 16, 2025 10:39:45 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 16, 2025 10:39:55 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.05.16 22:40:01 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundException: Build target not found: Raf-Spark-Scala-App, candidates:
+scala-test
+scala
+scala-build
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$4(BuildTargetClassesFinder.scala:125)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$3(BuildTargetClassesFinder.scala:128)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:118)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:37)
+	at scala.meta.internal.metals.debug.DebugProvider.findMainClassAndItsBuildTarget(DebugProvider.scala:478)
+	at scala.meta.internal.metals.debug.DebugProvider$MainClassSearch.search(DebugProvider.scala:876)
+	at scala.meta.internal.metals.debug.DebugProvider$ClassSearch.$anonfun$searchResult$1(DebugProvider.scala:856)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 22:41:00 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundException: Build target not found: Raf-Spark-Scala-App, candidates:
+scala-test
+scala
+scala-build
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$4(BuildTargetClassesFinder.scala:125)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$3(BuildTargetClassesFinder.scala:128)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:118)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:37)
+	at scala.meta.internal.metals.debug.DebugProvider.findMainClassAndItsBuildTarget(DebugProvider.scala:478)
+	at scala.meta.internal.metals.debug.DebugProvider$MainClassSearch.search(DebugProvider.scala:876)
+	at scala.meta.internal.metals.debug.DebugProvider$ClassSearch.$anonfun$searchResult$1(DebugProvider.scala:856)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 22:41:15 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundException: Build target not found: Raf-Spark-Scala-App, candidates:
+scala-test
+scala
+scala-build
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$4(BuildTargetClassesFinder.scala:125)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$3(BuildTargetClassesFinder.scala:128)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:118)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:37)
+	at scala.meta.internal.metals.debug.DebugProvider.findMainClassAndItsBuildTarget(DebugProvider.scala:478)
+	at scala.meta.internal.metals.debug.DebugProvider$MainClassSearch.search(DebugProvider.scala:876)
+	at scala.meta.internal.metals.debug.DebugProvider$ClassSearch.$anonfun$searchResult$1(DebugProvider.scala:856)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.16 22:44:32 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundException: Build target not found: Raf-Spark-Scala-App, candidates:
+scala-test
+scala
+scala-build
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$4(BuildTargetClassesFinder.scala:125)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$3(BuildTargetClassesFinder.scala:128)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:118)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:37)
+	at scala.meta.internal.metals.debug.DebugProvider.findMainClassAndItsBuildTarget(DebugProvider.scala:478)
+	at scala.meta.internal.metals.debug.DebugProvider$MainClassSearch.search(DebugProvider.scala:876)
+	at scala.meta.internal.metals.debug.DebugProvider$ClassSearch.$anonfun$searchResult$1(DebugProvider.scala:856)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+May 17, 2025 12:38:28 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 12:41:12 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 12:41:12 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 12:42:32 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 12:43:56 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 12:45:01 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 12:45:01 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 12:47:33 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+2025.05.17 00:47:42 INFO  compiling scala (1 scala source)
+May 17, 2025 12:47:42 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 815
+May 17, 2025 12:47:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 819
+2025.05.17 00:48:00 INFO  time: compiled scala in 18s
+May 17, 2025 12:50:08 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 12:50:09 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+2025.05.17 00:50:10 INFO  compiling scala (1 scala source)
+2025.05.17 00:50:25 INFO  time: compiled scala in 15s
+May 17, 2025 12:50:36 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-16\r_empty-definition_(scala)_22-16-13-917.md)
+2025.05.17 00:50:39 INFO  compiling scala (1 scala source)
+2025.05.17 00:50:45 INFO  time: compiled scala in 6.68s
+Exception in thread "pool-16-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:207)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2025.05.17 01:07:37 INFO  Started: Metals version 1.5.3 in folders 'D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala' for client Visual Studio Code 1.98.1.
+2025.05.17 01:07:45 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 01:07:45 INFO  Attempting to connect to the build server...
+2025.05.17 01:07:45 INFO  No running Bloop server found, starting one.
+2025.05.17 01:07:50 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 01:07:50 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 01:07:50 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+May 17, 2025 1:07:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+May 17, 2025 1:07:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+May 17, 2025 1:07:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+2025.05.17 01:07:50 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 01:07:51 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 01:07:51 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 01:07:51 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 01:07:51 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+May 17, 2025 1:07:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2025.05.17 01:07:51 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 01:07:51 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 01:07:51 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 01:07:52 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+May 17, 2025 1:07:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25
+May 17, 2025 1:07:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 28
+2025.05.17 01:07:52 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 01:07:52 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 01:07:52 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 01:07:52 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 01:07:54 INFO  Starting compilation server
+2025.05.17 01:07:54 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 01:07:54 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 01:07:55 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+May 17, 2025 1:07:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+2025.05.17 01:07:55 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+May 17, 2025 1:07:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 48
+2025.05.17 01:07:56 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 01:07:56 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 01:07:58 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 01:07:58 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 01:07:58 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 01:07:59 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+May 17, 2025 1:07:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 63
+2025.05.17 01:07:59 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+May 17, 2025 1:07:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 67
+2025.05.17 01:07:59 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+May 17, 2025 1:08:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 70
+2025.05.17 01:08:00 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 01:08:00 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 01:08:00 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 01:08:01 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 01:08:01 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 01:08:01 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 01:08:01 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 01:08:03 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 01:08:03 WARN  no build target for: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala
+2025.05.17 01:08:04 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 01:08:04 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 01:08:05 WARN  no build target for: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala
+2025.05.17 01:08:05 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 01:08:05 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 01:08:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\bsp.trace.json or C:\Users\Zoran Babovic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.17 01:08:08 INFO  Attempting to connect to the build server...
+2025.05.17 01:08:08 INFO  Found a Bloop server running
+2025.05.17 01:08:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\project\.metals\bsp.trace.json or C:\Users\Zoran Babovic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.17 01:08:09 INFO  time: Connected to build server in 23s
+2025.05.17 01:08:08 INFO  Connected to Build server: Bloop v2.0.10
+2025.05.17 01:08:09 INFO  time: Imported build in 0.61s
+May 17, 2025 1:08:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 115
+2025.05.17 01:08:46 INFO  time: indexed workspace in 36s
+2025.05.17 01:08:49 INFO  compiling scala (1 scala source)
+2025.05.17 01:09:01 INFO  compiling scala (1 scala source)
+2025.05.17 01:09:03 INFO  time: compiled scala in 2.49s
+2025.05.17 01:09:05 INFO  time: code lens generation in 1.44s
+2025.05.17 01:09:05 INFO  time: code lens generation in 1.44s
+2025.05.17 01:09:05 INFO  time: code lens generation in 1.35s
+2025.05.17 01:09:05 INFO  time: code lens generation in 1.44s
+2025.05.17 01:09:05 INFO  time: code lens generation in 1.44s
+2025.05.17 01:09:05 INFO  time: code lens generation in 1.44s
+2025.05.17 01:09:05 INFO  time: code lens generation in 1.45s
+2025.05.17 01:09:05 INFO  time: code lens generation in 1.45s
+2025.05.17 01:09:05 INFO  time: code lens generation in 1.45s
+2025.05.17 01:09:05 INFO  time: code lens generation in 1.45s
+2025.05.17 01:09:05 INFO  time: code lens generation in 1.45s
+2025.05.17 01:09:05 INFO  time: code lens generation in 1.45s
+2025.05.17 01:09:05 INFO  time: code lens generation in 1.45s
+2025.05.17 01:09:05 INFO  time: code lens generation in 1.45s
+2025.05.17 01:09:05 INFO  time: code lens generation in 1.45s
+2025.05.17 01:09:05 INFO  time: code lens generation in 1.45s
+2025.05.17 01:09:05 INFO  time: code lens generation in 1.45s
+2025.05.17 01:09:05 INFO  time: code lens generation in 1.45s
+2025.05.17 01:09:05 INFO  time: code lens generation in 1.45s
+2025.05.17 01:09:05 INFO  time: code lens generation in 1.36s
+2025.05.17 01:09:05 INFO  time: code lens generation in 1.45s
+2025.05.17 01:09:05 INFO  time: code lens generation in 1.45s
+2025.05.17 01:09:05 INFO  time: code lens generation in 1.46s
+2025.05.17 01:09:05 INFO  time: code lens generation in 1.46s
+2025.05.17 01:09:05 INFO  time: code lens generation in 1.46s
+2025.05.17 01:09:05 INFO  time: code lens generation in 1.36s
+2025.05.17 01:09:13 INFO  compiling scala (1 scala source)
+May 17, 2025 1:09:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 201
+2025.05.17 01:09:18 INFO  time: compiled scala in 5.2s
+May 17, 2025 1:14:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 254
+May 17, 2025 1:17:57 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_01-17-57-191.md)
+Exception in thread "pool-16-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:207)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+May 17, 2025 1:18:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 360
+May 17, 2025 1:18:06 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_01-17-57-191.md)
+May 17, 2025 1:18:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 359
+May 17, 2025 1:18:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 354
+May 17, 2025 1:18:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 365
+May 17, 2025 1:18:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 368
+May 17, 2025 1:18:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 369
+May 17, 2025 1:18:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 373
+May 17, 2025 1:18:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 382
+May 17, 2025 1:18:07 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 1:18:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 452
+Exception in thread "pool-16-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:207)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+May 17, 2025 1:18:38 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_01-18-38-583.md)
+2025.05.17 01:18:38 INFO  compiling scala (1 scala source)
+May 17, 2025 1:18:38 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_01-18-38-583.md)
+May 17, 2025 1:18:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 493
+May 17, 2025 1:18:43 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 494
+2025.05.17 01:18:50 INFO  time: compiled scala in 11s
+May 17, 2025 1:21:48 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 1:21:49 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 1:21:53 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 17, 2025 1:22:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 562
+May 17, 2025 1:23:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 694
+2025.05.17 01:23:48 INFO  compiling scala (1 scala source)
+2025.05.17 01:23:56 INFO  time: compiled scala in 7.43s
+May 17, 2025 1:24:33 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 1:24:33 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 1:25:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 872
+May 17, 2025 1:25:09 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 1:25:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 884
+2025.05.17 01:25:36 INFO  compiling scala (1 scala source)
+2025.05.17 01:25:38 INFO  time: compiled scala in 1.83s
+2025.05.17 01:25:52 INFO  compiling scala (1 scala source)
+2025.05.17 01:25:56 INFO  time: compiled scala in 4.33s
+May 17, 2025 1:26:24 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1010
+May 17, 2025 1:26:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1025
+2025.05.17 01:28:28 INFO  compiling scala (1 scala source)
+2025.05.17 01:28:32 INFO  time: compiled scala in 3.1s
+May 17, 2025 1:28:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1153
+2025.05.17 01:28:47 INFO  compiling scala (1 scala source)
+2025.05.17 01:28:51 INFO  time: compiled scala in 3.55s
+May 17, 2025 1:33:11 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 1:33:12 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 1:36:24 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 1:36:25 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 1:44:44 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 2:00:31 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 2:00:31 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 2:17:16 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 3:09:17 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1449
+May 17, 2025 3:09:34 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+2025.05.17 03:21:34 INFO  compiling scala (1 scala source)
+2025.05.17 03:21:37 INFO  time: compiled scala in 3.1s
+May 17, 2025 3:22:11 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 3:24:26 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1690
+May 17, 2025 3:24:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1695
+May 17, 2025 3:24:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1696
+May 17, 2025 3:24:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1702
+May 17, 2025 3:24:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1704
+May 17, 2025 3:24:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1707
+May 17, 2025 3:24:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1708
+May 17, 2025 3:24:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1709
+May 17, 2025 3:24:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1710
+May 17, 2025 3:24:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1711
+May 17, 2025 3:24:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1752
+May 17, 2025 3:24:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1754
+May 17, 2025 3:24:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1755
+May 17, 2025 3:24:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1759
+May 17, 2025 3:24:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1761
+May 17, 2025 3:24:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1762
+May 17, 2025 3:24:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1764
+May 17, 2025 3:24:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1804
+2025.05.17 03:24:43 INFO  compiling scala (1 scala source)
+2025.05.17 03:24:46 INFO  time: compiled scala in 2.63s
+Exception in thread "pool-16-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:207)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+May 17, 2025 3:32:06 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 3:52:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1897
+2025.05.17 03:53:04 INFO  compiling scala (1 scala source)
+2025.05.17 03:53:08 INFO  time: compiled scala in 3.5s
+May 17, 2025 3:53:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1971
+May 17, 2025 3:53:09 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1972
+May 17, 2025 3:56:29 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+2025.05.17 03:56:29 INFO  compiling scala (1 scala source)
+2025.05.17 03:56:32 INFO  time: compiled scala in 2.56s
+May 17, 2025 4:02:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2133
+2025.05.17 04:02:30 INFO  compiling scala (1 scala source)
+2025.05.17 04:02:32 INFO  time: compiled scala in 2.32s
+May 17, 2025 4:07:17 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 4:07:17 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 4:07:18 AM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+2025.05.17 04:07:24 INFO  compiling scala (1 scala source)
+2025.05.17 04:07:26 INFO  time: compiled scala in 2.17s
+2025.05.17 11:09:24 INFO  compiling scala (1 scala source)
+2025.05.17 11:09:27 INFO  time: compiled scala in 2.77s
+2025.05.17 11:12:18 INFO  Shutting down server
+2025.05.17 11:12:18 INFO  shutting down Metals
+2025.05.17 11:12:19 INFO  Shut down connection with build server.
+2025.05.17 11:12:19 INFO  Shut down connection with build server.
+2025.05.17 11:12:18 INFO  Exiting server
+2025.05.17 15:49:24 INFO  Started: Metals version 1.5.3 in folders 'D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala' for client Visual Studio Code 1.98.1.
+2025.05.17 15:49:26 INFO  no build target found for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.05.17 15:49:27 INFO  Attempting to connect to the build server...
+2025.05.17 15:49:27 INFO  Found a Bloop server running
+2025.05.17 15:49:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\bsp.trace.json or C:\Users\Zoran Babovic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.17 15:49:29 INFO  Attempting to connect to the build server...
+2025.05.17 15:49:29 INFO  Found a Bloop server running
+2025.05.17 15:49:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\project\.metals\bsp.trace.json or C:\Users\Zoran Babovic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.17 15:49:30 INFO  time: Connected to build server in 3.43s
+2025.05.17 15:49:30 INFO  Connected to Build server: Bloop v2.0.10
+2025.05.17 15:49:32 INFO  time: Imported build in 1.73s
+2025.05.17 15:49:58 INFO  time: indexed workspace in 25s
+2025.05.17 16:00:31 INFO  Disconnecting from Bloop session...
+2025.05.17 16:00:31 INFO  Shut down connection with build server.
+2025.05.17 16:00:31 INFO  Shut down connection with build server.
+2025.05.17 16:00:31 INFO  [0m[31m[E][0m Caught java.lang.InterruptedException
+2025.05.17 16:00:31 ERROR Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.
+Running the [1mclean[0m sub-command to clear the working directory and remove caches might help.
+If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing [1m-v -v -v[0m.
+2025.05.17 16:00:31 INFO  Attempting to connect to the build server...
+2025.05.17 16:00:31 INFO  No running Bloop server found, starting one.
+2025.05.17 16:00:35 INFO  Starting compilation server
+2025.05.17 16:00:39 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\bsp.trace.json or C:\Users\Zoran Babovic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.17 16:00:41 INFO  Attempting to connect to the build server...
+2025.05.17 16:00:41 INFO  Found a Bloop server running
+2025.05.17 16:00:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\project\.metals\bsp.trace.json or C:\Users\Zoran Babovic\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.17 16:00:42 INFO  time: Connected to build server in 10s
+2025.05.17 16:00:41 INFO  Connected to Build server: Bloop v2.0.10
+2025.05.17 16:00:42 INFO  time: Imported build in 0.41s
+2025.05.17 16:00:50 INFO  time: indexed workspace in 7.9s
+2025.05.17 16:08:25 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundException: Build target not found: Raf-Spark-Scala-App, candidates:
+scala-test
+scala
+scala-build
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$4(BuildTargetClassesFinder.scala:125)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$3(BuildTargetClassesFinder.scala:128)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:118)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:37)
+	at scala.meta.internal.metals.debug.DebugProvider.findMainClassAndItsBuildTarget(DebugProvider.scala:478)
+	at scala.meta.internal.metals.debug.DebugProvider$MainClassSearch.search(DebugProvider.scala:876)
+	at scala.meta.internal.metals.debug.DebugProvider$ClassSearch.$anonfun$searchResult$1(DebugProvider.scala:856)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+May 17, 2025 4:32:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 89
+2025.05.17 16:35:28 INFO  compiling scala (1 scala source)
+2025.05.17 16:35:38 INFO  time: compiled scala in 9.83s
+May 17, 2025 4:46:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 201
+May 17, 2025 5:27:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 324
+2025.05.17 17:27:44 INFO  compiling scala (1 scala source)
+May 17, 2025 5:27:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 344
+2025.05.17 17:27:48 INFO  time: compiled scala in 4.39sMay 17, 2025 5:27:48 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+
+May 17, 2025 5:27:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 360
+May 17, 2025 5:28:38 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_17-28-38-273.md)
+May 17, 2025 5:28:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 452
+2025.05.17 17:28:48 INFO  compiling scala (1 scala source)
+2025.05.17 17:28:50 INFO  time: compiled scala in 2.74s
+May 17, 2025 5:29:12 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+2025.05.17 17:29:25 INFO  compiling scala (1 scala source)
+2025.05.17 17:29:26 INFO  time: compiled scala in 1.12s
+May 17, 2025 5:29:41 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 5:29:41 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+2025.05.17 17:29:49 INFO  compiling scala (1 scala source)
+2025.05.17 17:29:49 INFO  time: compiled scala in 0.71s
+May 17, 2025 5:30:10 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_17-28-38-273.md)
+May 17, 2025 5:30:11 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_17-28-38-273.md)
+2025.05.17 17:30:18 INFO  compiling scala (1 scala source)
+2025.05.17 17:30:22 INFO  time: compiled scala in 3.36s
+Exception in thread "pool-7-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:207)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+2025.05.17 17:30:25 INFO  compiling scala (1 scala source)
+2025.05.17 17:30:31 INFO  time: compiled scala in 5.52s
+May 17, 2025 5:31:22 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_17-28-38-273.md)
+May 17, 2025 6:06:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 826
+May 17, 2025 6:06:28 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 6:06:57 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 6:06:57 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 9:06:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 897
+May 17, 2025 9:57:23 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 9:57:23 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 10:04:17 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 10:04:18 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 10:10:31 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_22-10-31-920.md)
+May 17, 2025 10:10:34 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_22-10-31-920.md)
+2025.05.17 22:10:40 INFO  compiling scala (1 scala source)
+2025.05.17 22:10:45 INFO  Deduplicating compilation of scala from bsp client 'Metals 1.5.3' (since 6h 10m 4.638s)
+2025.05.17 22:10:45 WARN  Could not load snapshot text for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala
+2025.05.17 22:10:45 INFO  compiling scala (1 scala source)
+2025.05.17 22:10:50 INFO  time: compiled scala in 5.04s
+Exception in thread "pool-7-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:207)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+May 17, 2025 10:10:51 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_22-10-51-619.md)
+May 17, 2025 10:10:54 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_22-10-51-619.md)
+2025.05.17 22:10:56 INFO  compiling scala (1 scala source)
+2025.05.17 22:11:01 INFO  time: compiled scala in 4.51s
+May 17, 2025 10:13:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1233
+2025.05.17 22:13:18 INFO  compiling scala (1 scala source)
+2025.05.17 22:13:27 INFO  time: compiled scala in 9.36s
+May 17, 2025 10:13:57 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+2025.05.17 22:24:59 INFO  compiling scala (1 scala source)
+May 17, 2025 10:25:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1457
+May 17, 2025 10:25:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1461
+2025.05.17 22:25:08 INFO  time: compiled scala in 8.72s
+May 17, 2025 10:32:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1802
+2025.05.17 22:32:11 INFO  compiling scala (1 scala source)
+May 17, 2025 10:32:14 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+May 17, 2025 10:32:14 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+2025.05.17 22:32:23 INFO  time: compiled scala in 11s
+2025.05.17 22:32:45 WARN  Could not load snapshot text for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala
+2025.05.17 22:32:45 WARN  Could not load snapshot text for D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\src\main\scala\Walmart.scala
+May 17, 2025 10:32:45 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+2025.05.17 22:32:46 INFO  compiling scala (1 scala source)
+2025.05.17 22:32:50 INFO  time: compiled scala in 3.73s
+2025.05.18 14:12:05 INFO  compiling scala (1 scala source)
+2025.05.18 14:12:13 INFO  time: compiled scala in 8.54s
+2025.05.18 14:12:14 INFO  compiling scala (1 scala source)
+2025.05.18 14:12:20 INFO  time: compiled scala in 5.3s
+2025.05.18 14:12:53 INFO  compiling scala (1 scala source)
+2025.05.18 14:12:54 INFO  time: compiled scala in 1.64s
+2025.05.18 14:13:08 INFO  compiling scala (1 scala source)
+2025.05.18 14:13:16 INFO  time: compiled scala in 8.81s
+May 18, 2025 2:15:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2687
+May 18, 2025 2:15:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2847
+May 18, 2025 2:16:13 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-16\r_empty-definition_(scala)_22-03-09-387.md)
+2025.05.18 14:16:14 INFO  compiling scala (1 scala source)
+May 18, 2025 2:16:14 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-16\r_empty-definition_(scala)_22-03-09-387.md)
+May 18, 2025 2:16:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3299
+May 18, 2025 2:16:14 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-16\r_empty-definition_(scala)_22-03-09-387.md)
+May 18, 2025 2:16:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3301
+2025.05.18 14:16:25 INFO  time: compiled scala in 10s
+2025.05.18 14:16:48 INFO  compiling scala (1 scala source)
+2025.05.18 14:16:53 INFO  time: compiled scala in 5.92s
+May 18, 2025 2:20:55 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-17\r_empty-definition_(scala)_00-38-28-704.md)
+2025.05.18 14:41:55 INFO  compiling scala (1 scala source)
+May 18, 2025 2:41:57 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.05.18 14:41:59 INFO  time: compiled scala in 4.2s
+2025.05.18 14:42:56 INFO  time: compiled scala in 28ms
+May 18, 2025 2:46:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3520
+May 18, 2025 2:47:17 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-16\r_empty-definition_(scala)_22-03-09-387.md)
+May 18, 2025 2:47:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3560
+May 18, 2025 2:47:18 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-16\r_empty-definition_(scala)_22-03-09-387.md)
+Exception in thread "pool-7-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:207)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+May 18, 2025 2:49:57 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-16\r_empty-definition_(scala)_22-03-09-387.md)
+May 18, 2025 2:50:00 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-16\r_empty-definition_(scala)_22-03-09-387.md)
+May 18, 2025 2:50:05 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-16\r_empty-definition_(scala)_22-03-09-387.md)
+May 18, 2025 2:50:05 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-16\r_empty-definition_(scala)_22-03-09-387.md)
+May 18, 2025 2:50:16 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-16\r_empty-definition_(scala)_22-03-09-387.md)
+May 18, 2025 2:50:16 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-16\r_empty-definition_(scala)_22-03-09-387.md)
+May 18, 2025 2:50:31 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-16\r_empty-definition_(scala)_22-03-09-387.md)
+May 18, 2025 2:50:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3624
+2025.05.18 14:59:21 INFO  compiling scala (1 scala source)
+May 18, 2025 2:59:24 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-18\r_empty-definition_(scala)_14-59-24-005.md)
+2025.05.18 14:59:32 INFO  time: compiled scala in 11s
+May 18, 2025 3:00:53 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-16\r_empty-definition_(scala)_22-03-09-387.md)
+2025.05.18 15:01:21 INFO  compiling scala (1 scala source)
+2025.05.18 15:01:23 INFO  time: compiled scala in 1.43s
+May 18, 2025 3:03:07 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-16\r_empty-definition_(scala)_22-03-09-387.md)
+May 18, 2025 3:03:07 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-16\r_empty-definition_(scala)_22-03-09-387.md)
+2025.05.18 15:03:55 INFO  compiling scala (1 scala source)
+2025.05.18 15:04:07 INFO  time: compiled scala in 12s
+2025.05.18 15:06:07 INFO  compiling scala (1 scala source)
+2025.05.18 15:06:15 INFO  time: compiled scala in 7.29s
+May 18, 2025 3:07:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4048
+2025.05.18 15:08:02 INFO  compiling scala (1 scala source)
+2025.05.18 15:08:07 INFO  time: compiled scala in 5.2s
+May 18, 2025 3:08:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4069
+2025.05.18 15:08:21 INFO  compiling scala (1 scala source)
+2025.05.18 15:08:25 INFO  time: compiled scala in 4.33s
+May 18, 2025 3:08:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4142
+2025.05.18 15:08:45 INFO  compiling scala (1 scala source)
+2025.05.18 15:08:48 INFO  time: compiled scala in 3.06s
+May 18, 2025 3:08:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4193
+2025.05.18 15:08:58 INFO  compiling scala (1 scala source)
+2025.05.18 15:09:01 INFO  time: compiled scala in 2.62s
+May 18, 2025 5:20:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4297
+May 18, 2025 5:20:49 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-16\r_empty-definition_(scala)_22-03-09-387.md)
+May 18, 2025 5:20:49 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-16\r_empty-definition_(scala)_22-03-09-387.md)
+May 18, 2025 5:22:19 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-16\r_empty-definition_(scala)_22-16-13-917.md)
+2025.05.18 17:22:24 INFO  compiling scala (1 scala source)
+May 18, 2025 5:22:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4399
+May 18, 2025 5:22:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4404
+May 18, 2025 5:22:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4407
+May 18, 2025 5:22:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4417
+May 18, 2025 5:22:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4420
+2025.05.18 17:22:31 INFO  time: code lens generation in 2.73s
+2025.05.18 17:22:39 INFO  time: compiled scala in 14s
+May 18, 2025 5:22:39 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2025.05.18 17:22:39 INFO  compiling scala (1 scala source)
+May 18, 2025 5:22:42 PM scala.meta.internal.metals.StdReporter $anonfun$create$1
+WARNING: empty definition using pc, found symbol in pc:  (full report at: D:\dev\workspaces\eclipse-workspace-2022\PDS-Spark\Scala\.metals\.reports\metals-full\2025-05-16\r_empty-definition_(scala)_22-16-13-917.md)
+2025.05.18 17:22:43 INFO  time: compiled scala in 4.45s
+2025.05.18 17:22:46 INFO  compiling scala (1 scala source)
+May 18, 2025 5:22:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4481
+May 18, 2025 5:22:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4482
+2025.05.18 17:22:55 INFO  time: compiled scala in 9.46s
+2025.05.18 17:25:38 INFO  time: code lens generation in 7.16s
+2025.05.18 17:25:38 INFO  time: code lens generation in 7.18s
+May 18, 2025 5:26:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4625
+May 18, 2025 5:28:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4707
+May 18, 2025 5:28:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4711
+2025.05.18 17:29:42 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundException: Build target not found: Raf-Spark-Scala-App, candidates:
+scala-test
+scala
+scala-build
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$4(BuildTargetClassesFinder.scala:125)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$3(BuildTargetClassesFinder.scala:128)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:118)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:37)
+	at scala.meta.internal.metals.debug.DebugProvider.findMainClassAndItsBuildTarget(DebugProvider.scala:478)
+	at scala.meta.internal.metals.debug.DebugProvider$MainClassSearch.search(DebugProvider.scala:876)
+	at scala.meta.internal.metals.debug.DebugProvider$ClassSearch.$anonfun$searchResult$1(DebugProvider.scala:856)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.18 17:30:49 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundException: Build target not found: Raf-Spark-Scala-App, candidates:
+scala-test
+scala
+scala-build
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$4(BuildTargetClassesFinder.scala:125)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.$anonfun$findClassAndBuildTarget$3(BuildTargetClassesFinder.scala:128)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findClassAndBuildTarget(BuildTargetClassesFinder.scala:118)
+	at scala.meta.internal.metals.debug.BuildTargetClassesFinder.findMainClassAndItsBuildTarget(BuildTargetClassesFinder.scala:37)
+	at scala.meta.internal.metals.debug.DebugProvider.findMainClassAndItsBuildTarget(DebugProvider.scala:478)
+	at scala.meta.internal.metals.debug.DebugProvider$MainClassSearch.search(DebugProvider.scala:876)
+	at scala.meta.internal.metals.debug.DebugProvider$ClassSearch.$anonfun$searchResult$1(DebugProvider.scala:856)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1623)
+
+2025.05.18 17:45:16 INFO  Shutting down server
+2025.05.18 17:45:16 INFO  shutting down Metals
+2025.05.18 17:45:17 INFO  Shut down connection with build server.
+2025.05.18 17:45:17 INFO  Shut down connection with build server.
+2025.05.18 17:45:18 INFO  Exiting server
